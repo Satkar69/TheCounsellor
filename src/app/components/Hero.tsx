@@ -8,12 +8,10 @@ const Hero = () => {
         <div className="flex flex-wrap -m-12">
           <div className="p-1 md:w-1/2 flex flex-col items-start">
             <h2 className="text-2xl sm:text-4xl title-font font-medium text-white mt-24 mb-7 hover:text-[#0d7abf]">
-              INNOVATE. CREATE. DOMINATE.
+            Empowering Your Education Journey
             </h2>
             <div className="text-white max-w-xl ">
-              We envision a future where businesses seamlessly harness the power
-              of evolving technologies to not only adapt to change but to thrive
-              in it.
+            The Counsellor features a dedicated team of professionals with years of combined expertise in management, consulting, education, and training, along with passionate employees committed to providing high-quality services and guidance.
             </div>
           </div>
         </div>

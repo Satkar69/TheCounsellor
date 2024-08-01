@@ -15,7 +15,7 @@ const ServicePage = () => {
                   Our Services
                 </h1>
                 <p className="mb-16 text-lg">
-                  We envision a future where businesses seamlessly.
+                  We envision an educated future.
                 </p>
                 <div className="text-blue-500 text-lg hover:underline">
                   <a href="#">See all services &gt;</a>
@@ -27,16 +27,16 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg"
-                    src="/software.png"
+                    src="/overseas.jpg"
                     width={300}
                     height={300}
-                    alt="Software & Application Development"
+                    alt="OVERSEAS EDUCATION"
                   />
                 </a>
                 <div className="p-5">
                   <a href="#">
                     <p className="mb-2 text-xl text-black">
-                      Software & Application Development
+                      OVERSEAS EDUCATION
                     </p>
                   </a>
                 </div>
@@ -47,16 +47,16 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg"
-                    src="/marketing.png"
+                    src="/exam.svg"
                     width={300}
                     height={300}
-                    alt="Digital Marketing & Branding"
+                    alt="TEST PREPARATION CLASSES"
                   />
                 </a>
                 <div className="p-5">
                   <a href="#">
                     <p className="mb-2 text-xl text-black">
-                      Digital Marketing & Branding
+                      TEST PREPARATION CLASSES
                     </p>
                   </a>
                 </div>
@@ -67,15 +67,15 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg"
-                    src="/video.png"
+                    src="/counselling.jpg"
                     width={300}
                     height={300}
-                    alt="Video Production"
+                    alt="ACADEMIC COUNSELLING"
                   />
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <p className="mb-2 text-xl text-black">Video Production</p>
+                    <p className="mb-2 text-xl text-black">ACADEMIC COUNSELLING</p>
                   </a>
                 </div>
               </div>
