@@ -8,6 +8,7 @@ import Customer from "./components/customer/page";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Info from "./components/Info";
+import Contact from "./components/Contact/page";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <IndustryPage />
       <Testimonial />
       <Customer />
+      <Contact />
       <Footer />
     </main>
   );

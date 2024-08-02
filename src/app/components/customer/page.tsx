@@ -42,19 +42,6 @@ const Customer = () => {
           </div>
         ))}
       </Slider>
-      <div>
-        <h1 className="flex justify-center title-font text-3xl mt-12 mb-4 font-bold text-black">
-          Ready to dive into projects?
-        </h1>
-        <div className="flex justify-center text-xl">
-          <p>Get in touch with our team</p>
-        </div>
-        <div className="flex justify-center my-8">
-          <button className="text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-lg">
-            CONTACT US
-          </button>
-        </div>
-      </div>
     </>
   );
 };

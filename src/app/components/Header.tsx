@@ -1,30 +1,139 @@
-const Header = () => {
-  return (
-    <header className="text-black-200 body-font">
-      <div className="container mx-auto w-full max-w-screen-xl flex flex-wrap flex-col md:flex-row items-center">
-        <a href="/">
-          <img src="/logo1.png" alt="logo" className="w-16 h-16" />
-        </a>
+"use client";
 
-        <nav className="ml-auto flex flex-wrap items-center justify-center text-base">
-          <a href="/" className="mr-5 hover:text-[#0D7ABF]">
+import { useState } from "react";
+
+const Header = () => {
+  // State to track the mobile menu open/close
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to toggle menu visibility
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <nav className="bg-white shadow-md">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="relative flex h-16 items-center justify-between">
+          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            {/* Mobile menu button */}
+            <button
+              type="button"
+              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-200 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900"
+              aria-controls="mobile-menu"
+              aria-expanded={isMenuOpen}
+              onClick={handleMenuToggle}
+            >
+              <span className="absolute -inset-0.5"></span>
+              <span className="sr-only">Open main menu</span>
+              {/* Icon when menu is closed */}
+              <svg
+                className={isMenuOpen ? "hidden" : "block h-6 w-6"}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+              {/* Icon when menu is open */}
+              <svg
+                className={isMenuOpen ? "block h-6 w-6" : "hidden"}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex flex-shrink-0 items-center">
+              <img
+                className="h-8 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Your Company"
+              />
+            </div>
+          </div>
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            {/* Links container */}
+            {!isMenuOpen && (
+              <div className="hidden sm:flex space-x-4">
+                <a
+                  href="#"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+                >
+                  Home
+                </a>
+                <a
+                  href="#"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+                >
+                  About Us
+                </a>
+                <a
+                  href="#"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+                >
+                  Services
+                </a>
+                <a
+                  href="#"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+                >
+                  Contact Us
+                </a>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile menu, show/hide based on menu state */}
+      <div
+        className={`sm:hidden ${isMenuOpen ? "block" : "hidden"}`}
+        id="mobile-menu"
+      >
+        <div className="space-y-1 px-2 pb-3 pt-2">
+          <a
+            href="#"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+          >
             Home
           </a>
-          <a href="#service-page" className="mr-5  hover:text-[#0D7ABF]">
+          <a
+            href="#"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+          >
+            About Us
+          </a>
+          <a
+            href="#"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+          >
             Services
           </a>
-          <a href="#about" className="mr-5  hover:text-[#0D7ABF]">
-            About
+          <a
+            href="#"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+          >
+            Contact Us
           </a>
-          <a href="#footer" className="mr-5  hover:text-[#0D7ABF]">
-            Career
-          </a>
-          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-1 px-3 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base mt-4 md:mt-0">
-            Contact
-          </button>
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
