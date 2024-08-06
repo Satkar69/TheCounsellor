@@ -9,11 +9,11 @@ const Contact = () => {
         <div className="p-8 flex flex-col gap-4 items-center">
           <div>
             <h1 className="title-font text-3xl font-bold text-black">
-              Ready to dive into projects?
+              Get in touch with us!
             </h1>
           </div>
           <div>
-            <p className="text-xl">Get in touch with our team</p>
+            <p className="text-xl">You can find us here</p>
           </div>
         </div>
         <section className="relative z-10 overflow-hidden py-20 dark:bg-dark lg:py-[120px]">
@@ -49,7 +49,7 @@ const Contact = () => {
                     <div className="mt-6">
                       <button
                         type="submit"
-                        className="bg-[#0D7ABF] text-white px-4 py-2 rounded-xl hover:bg-[#0d7bbfd7]"
+                        className="bg-[#B04141] text-white px-4 py-2 rounded-xl hover:bg-[#0d7bbfd7]"
                       >
                         Send Message
                       </button>

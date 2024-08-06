@@ -1,7 +1,7 @@
 const StatisticsPage = () => {
   return (
     <>
-      <section className="text-[#0d7abf] body-font mt-10 mx-auto w-full max-w-screen-xl">
+      <section className="text-[#B04141] body-font mt-10 mx-auto w-full max-w-screen-xl">
         <div className="container px-5 py-24 mx-auto">
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
             <div className="flex flex-col items-center justify-center bg-white p-8 rounded-lg ">

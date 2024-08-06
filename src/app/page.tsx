@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <StatisticsPage />
       <ServicePage />
-      {/* <Content /> */}
+      {/* <Content />  */}
       <IndustryPage />
       <Testimonial />
       <Customer />

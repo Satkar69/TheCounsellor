@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#0D7ABF]">
+      <footer className="bg-[#B04141]">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex justify-between">
             <div className="mb-6 md:mb-0">
@@ -53,7 +53,7 @@ const Footer = () => {
                   </li>
                   <li className="mb-4">
                     <a href="" className="hover:underline ">
-                      info.@asknemo.com.np
+                    nepalithe.counsellor@gmail.com
                     </a>
                   </li>
                   <li className="mb-4">
