@@ -19,10 +19,10 @@ const Contact = () => {
         <section className="relative z-10 overflow-hidden py-20 dark:bg-dark lg:py-[120px]">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap lg:justify-between">
-              <div className="w-full px-4 lg:w-1/2 xl:w-6/12 mb-8 lg:mb-0">
+              <div className="w-full h-[555px] px-4 lg:pl-20 lg:w-1/2 xl:w-6/12 mb-8 lg:mb-0">
                 <Location />
               </div>
-              <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+              <div className="w-full px-4 lg:w-1/2 xl:w-5/12 lg:pr-20">
                 <div className="relative rounded-lg bg-white p-8 shadow-lg shadow-gray-500/50 dark:bg-dark-8 sm:p-12">
                   <form>
                     <ContactInputBox
