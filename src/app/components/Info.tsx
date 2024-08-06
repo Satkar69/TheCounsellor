@@ -5,11 +5,11 @@ const Info = () => {
         <div className="container mx-auto w-full max-w-screen-xl py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
           <img src="/phone.png" className="h-5 w-5" alt="" />
           <div className="text-black text-sm text-center sm:text-left mb-2 sm:mb-0">
-            <p>+977 9767220320</p>
+            <p>+977 9851102124</p>
           </div>
           <img src="/navigation.png" className="h-5 w-5 ml-5" alt="" />
           <div className="text-black text-sm text-center sm:text-left mb-2 sm:mb-0">
-            <p>Chabahill, Kathmandu</p>
+            <p>Bagbazzar, Kathmandu</p>
           </div>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a className="text-gray-500" href="#">

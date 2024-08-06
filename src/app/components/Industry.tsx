@@ -19,7 +19,7 @@ const IndustryPage = () => {
                 <p>USA</p>
               </div>
               <div className="px-8 py-6 border-l-2 border-opacity-60 h-auto max-w-lg transition-all duration-300 mx-auto md:mx-0 blur-none hover:blur-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 z-0">
-                <Image src={"/software.png"} height={500} width={500} alt="" />
+                <Image src={"/usa.jpg"} height={500} width={500} alt="" />
               </div>
             </div>
             <div className="relative">
@@ -27,7 +27,7 @@ const IndustryPage = () => {
                 <p>Australia</p>
               </div>
               <div className="px-8 py-6 border-l-2 border-opacity-60 h-auto max-w-lg transition-all duration-300 mx-auto md:mx-0 blur-none hover:blur-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 z-0">
-                <Image src={"/video.png"} height={500} width={500} alt="" />
+                <Image src={"/aus.jpg"} height={500} width={500} alt="" />
               </div>
             </div>
             <div className="relative">
@@ -35,7 +35,7 @@ const IndustryPage = () => {
                 <p>Canada</p>
               </div>
               <div className="px-8 py-6 border-l-2 border-opacity-60 h-auto max-w-lg transition-all duration-300 mx-auto md:mx-0 blur-none hover:blur-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 z-0">
-                <Image src={"/marketing.png"} height={500} width={500} alt="" />
+                <Image src={"/canada.jpg"} height={500} width={500} alt="" />
               </div>
             </div>
             <div className="relative">
@@ -43,7 +43,7 @@ const IndustryPage = () => {
                 <p>United Kingdom</p>
               </div>
               <div className="px-8 py-6 border-l-2 border-opacity-60 h-auto max-w-lg transition-all duration-300 mx-auto md:mx-0 blur-none hover:blur-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 z-0">
-                <Image src={"/software.png"} height={500} width={500} alt="" />
+                <Image src={"/uk.jpg"} height={500} width={500} alt="" />
               </div>
             </div>
           </div>

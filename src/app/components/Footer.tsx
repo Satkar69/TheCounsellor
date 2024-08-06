@@ -48,7 +48,7 @@ const Footer = () => {
                 <ul className="text-white font-medium">
                   <li className="mb-4">
                     <a href="" className="hover:underline ">
-                      123 street, Chabahil first floor, Kathmandu, Nepal
+                      Bagbazzar, Kathmandu, Nepal
                     </a>
                   </li>
                   <li className="mb-4">
@@ -58,7 +58,7 @@ const Footer = () => {
                   </li>
                   <li className="mb-4">
                     <a href="" className="hover:underline ">
-                      +977 9860257950jhdgf
+                    +977 9851102124
                     </a>
                   </li>
                 </ul>
