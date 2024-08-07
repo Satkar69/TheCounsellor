@@ -4,7 +4,7 @@ import StatisticsPage from "./components/Statistics";
 import ServicePage from "./components/ServicePage";
 import Content from "./components/Content";
 import IndustryPage from "./components/Industry";
-import Customer from "./components/customer/page";
+import Customer from "./components/Customer/page";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Info from "./components/Info";

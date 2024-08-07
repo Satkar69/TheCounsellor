@@ -7,36 +7,28 @@ const Footer = () => {
             <div className="mb-6 md:mb-0">
               <a href="" className="flex items-center">
                 <img
-                  src="/white-nemo.png"
+                  src="/logow.png"
                   className="h-36 w-36"
-                  alt="Nemo Logo"
+                  alt="the Logo"
                 />
               </a>
             </div>
             <div className="flex justify-center gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase">
-                  Resources
-                </h2>
                 <ul className="text-white font-medium">
                   <li className="mb-4">
                     <a href="" className="hover:underline">
-                      Nemo Writes
+                      Home
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a href="" className="hover:underline">
+                      About Us
                     </a>
                   </li>
                   <li>
                     <a href="" className="hover:underline">
-                      Portfolio
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" className="hover:underline">
-                      Our Company
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" className="hover:underline">
-                      Carrer
+                      Services
                     </a>
                   </li>
                 </ul>
@@ -68,8 +60,8 @@ const Footer = () => {
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-white sm:text-center">
-              © 2024{" "}
-              <a href="https://flowbite.com/" className="hover:underline">
+              The Counsellor{" "}
+              <a href="https://thecounsellor.com.np/" className="hover:underline">
                 Nemo™
               </a>
               . All Rights Reserved.
