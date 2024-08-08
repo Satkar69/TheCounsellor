@@ -22,8 +22,8 @@ export default function Home() {
       <ServicePage />
       {/* <Content />  */}
       <IndustryPage />
-      {/* <Testimonial /> */}
-      <Testimonial2 />
+      <Testimonial />
+      {/* <Testimonial2 /> */}
       <Customer />
       <Contact />
       <Footer />
