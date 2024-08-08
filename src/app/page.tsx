@@ -9,6 +9,8 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Contact from "./components/Contact/page";
+import Testimonial2 from "./components/Testimonial2";
+
 
 export default function Home() {
   return (
@@ -20,7 +22,8 @@ export default function Home() {
       <ServicePage />
       {/* <Content />  */}
       <IndustryPage />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <Testimonial2 />
       <Customer />
       <Contact />
       <Footer />
