@@ -62,9 +62,9 @@ const Footer = () => {
             <span className="text-sm text-white sm:text-center">
               The Counsellor{" "}
               <a href="https://thecounsellor.com.np/" className="hover:underline">
-                Nemo™
+
               </a>
-              . All Rights Reserved.
+              {/* . All Rights Reserved. */}
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a

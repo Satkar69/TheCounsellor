@@ -29,7 +29,7 @@ const Testimonial = () => {
                     width={300}
                     height={300}
                     alt="testimonial"
-                    src="/calculator.png"
+                    src="/anish.jpg"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
