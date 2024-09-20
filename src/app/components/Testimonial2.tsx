@@ -22,7 +22,7 @@ const Testimonial2 = () => {
                 slidesPerView: 2,
               },
             }}
-          >d
+          >
             <SwiperSlide>
               <div className="h-full bg-gray-100 p-8 rounded">
                 <svg
