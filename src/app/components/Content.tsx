@@ -24,7 +24,7 @@ const Content = () => {
                 Our Projects
               </h1>
               <p className="mb-4 text-xl text-gray-600">
-                We envision a future where businesses seamlessly.
+                We dream to empower Nepalese Students' Education Journey
               </p>
               <a
                 href="#"
